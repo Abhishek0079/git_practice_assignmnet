@@ -1,15 +1,24 @@
 
 
-function prime(num){
-let a = true
-for(let i=0; i<num; i++)
-if(num%i==0) {
-   a = false
-}
 
-if(prime==true){
-console.log("Yes")
-} else {
-console.log("No")
+let num = 7
+let count=0;
+   
+let num = 7
+let count  = 0
+ for(i=1;i<num;i++){
+        if(num%i===0){
+            count = count+1;
+        }
+    }
+    if(count<2){
+        console.log("Yes");
+    }
+    else{
+        console.log("No");
+    }
 
-}
+
+
+
+
